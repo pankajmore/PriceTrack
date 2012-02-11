@@ -1,25 +1,19 @@
-# ----------------------
-# Flask
-# ----------------------
-flask
-flask-wtf
-
-
-# ----------------------
-# Testing
-# ----------------------
-mock
-
-
-# ----------------------
-# Database
-# ----------------------
-sqlalchemy
-flask-sqlalchemy
-
-
-# ----------------------
-# Production Server
-# ----------------------
-gevent
-gunicorn
+Flask==0.8
+Flask-Mail==0.6.1
+Flask-SQLAlchemy==0.15
+Flask-WTF==0.5.2
+Jinja2==2.6
+SQLAlchemy==0.7.5
+WTForms==0.6.3
+Werkzeug==0.8.3
+blinker==1.2
+chardet==1.0.1
+gevent==0.13.6
+greenlet==0.3.3
+gunicorn==0.13.4
+lamson==1.1
+lockfile==0.9.1
+mock==0.7.2
+nose==1.1.2
+python-daemon==1.6
+wsgiref==0.1.2
